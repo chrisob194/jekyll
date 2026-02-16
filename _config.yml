@@ -7,16 +7,12 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: your-username
+repository: chrisob194/jekyll
 
 # Build settings
-theme: minima
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
-
-# Minima theme settings
-header_pages:
-  - about.md
-  - portfolio.md
 
 # Markdown settings
 markdown: kramdown

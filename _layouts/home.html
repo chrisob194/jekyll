@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Post recenti</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <small>{{ post.date | date: "%d/%m/%Y" }}</small>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
