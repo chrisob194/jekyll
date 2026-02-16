@@ -2,11 +2,11 @@
 title: Tech Blog
 email: your-email@example.com
 description: >-
-  Blog personale su sviluppo software, tecnologia e progetti.
-  Appunti, tutorial e riflessioni dal mondo dello sviluppo.
+  Personal blog about software development, tech and projects.
+  Notes, tutorials and brainstorming about the software development world.
 baseurl: "/jekyll"
 url: "https://chrisob194.github.io"
-github_username: your-username
+github_username: chrisob194
 repository: chrisob194/jekyll
 
 # Build settings
